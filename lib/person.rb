@@ -1,7 +1,7 @@
 class Person
 
   @name
-  @breed
+  @job
 
   def name=(dog_name)
 
@@ -12,12 +12,12 @@ class Person
     @name
   end
 
-  def breed=(dog_name)
+  def job=(dog_name)
 
-    @name = dog_name
+    @job = dog_name
   end
 
-  def breed
-    @name
+  def job
+    @job
   end
 end
